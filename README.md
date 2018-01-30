@@ -7,6 +7,9 @@ Description
 -----------
 This example shows how to create apps that take advantage of both QML and Qt C++.
 
+For the full guide how to enhance your C++ class with signals and slots for usage with QML, see here:
+https://v-play.net/cross-platform-development/how-to-expose-a-qt-cpp-class-with-signals-and-slots-to-qml
+
 For more information about creating Apps with V-Play Engine, see here: http://v-play.net/apps/.
 
 Installation Instructions
