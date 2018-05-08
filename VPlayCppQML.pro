@@ -1,6 +1,9 @@
 # allows to add DEPLOYMENTFOLDERS and links to the V-Play library and QtCreator auto-completion
 CONFIG += v-play
 
+# uncomment this line to add the Live Client Module and use live reloading with your custom C++ code
+#CONFIG += v-play-live
+
 qmlFolder.source = qml
 DEPLOYMENTFOLDERS += qmlFolder # comment for publishing
 
