@@ -6,9 +6,9 @@ MyGlobalObject::MyGlobalObject() : m_counter(0)
   // perform custom initialization steps here
 }
 
-void MyGlobalObject::doSomething(QString text) {
+void MyGlobalObject::doSomething(const QString &text) {
   qDebug() << "MyGlobalObject doSomething called with" << text;
-  setCounter(m_counter++);
+  setCounter(m_counter + 1);
 }
 
 int MyGlobalObject::counter() const {

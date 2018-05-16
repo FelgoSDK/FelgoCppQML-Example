@@ -12,7 +12,7 @@ public:
   MyGlobalObject();
 
 public slots: // slots are public methods available in QML
-  void doSomething(QString text);
+  void doSomething(const QString &text);
 
 signals:
   void counterChanged();

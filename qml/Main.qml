@@ -13,14 +13,11 @@ App {
       title: "Integrate C++ and QML"
 
       // Example 1 - Global Context Property
-      // NOTE: myGlobalObject is simply available here because it is set as a context property in main.cpp
+      // NOTE: myGlobalObject is available here because it is set as a context property in main.cpp
       Column {
-        id: example1
-        anchors.horizontalCenter: parent.horizontalCenter
 
         // 1.1: Calling myGlobalObject.doSomething() function
         AppButton {
-          anchors.horizontalCenter: parent.horizontalCenter
           text: "myGlobalObject.doSomething()"
           onClicked: myGlobalObject.doSomething("TEXT FROM QML")
         }
@@ -28,7 +25,6 @@ App {
         // 1.2: Increasing myGlobalObject.counter property
         // NOTE: the defined setter function of the property is used automatically and triggers the counterChanged signal
         AppButton {
-          anchors.horizontalCenter: parent.horizontalCenter
           text: "myGlobalObject.counter + 1"
           onClicked: {
             myGlobalObject.counter = myGlobalObject.counter + 1
@@ -39,11 +35,9 @@ App {
         // NOTE: property bindings are supported, as the counter property definition includes the counterChanged signal,
         // which is fired in the implementation of MyGlobalObject::setCounter() for each property change
         AppText {
-          anchors.horizontalCenter: parent.horizontalCenter
           text: "Global Context Property Counter: "+myGlobalObject.counter
         }
-      } // Example 1
-
+      // Example 1 ends here...
 
 
       // Example 2: Custom QML Type implemented with C++
@@ -73,23 +67,20 @@ App {
 
       // 2.1: Show typeFromCpp.message value, which is calculated automatically based on the myGlobalObject.counter value
       AppText {
-        id: messageText
-        anchors.top: example1.bottom
-        anchors.horizontalCenter: parent.horizontalCenter
-        anchors.topMargin: dp(16)
         text: "Custom QML Type Message:\n" + typeFromCpp.message
+        anchors.horizontalCenter: parent.horizontalCenter
         horizontalAlignment: AppText.AlignHCenter
       }
 
       // 2.4: Button to start cpp task
       AppButton {
-        anchors.top: messageText.bottom
         anchors.horizontalCenter: parent.horizontalCenter
         text: "typeFromCpp.startCppTask()"
         onClicked: {
             typeFromCpp.startCppTask()
         }
       }
+    }
 
       // 2.5: Connections allow to add signal handlers for global context property objects
       Connections {
