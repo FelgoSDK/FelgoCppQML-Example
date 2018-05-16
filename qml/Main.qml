@@ -68,13 +68,10 @@ App {
       // 2.1: Show typeFromCpp.message value, which is calculated automatically based on the myGlobalObject.counter value
       AppText {
         text: "Custom QML Type Message:\n" + typeFromCpp.message
-        anchors.horizontalCenter: parent.horizontalCenter
-        horizontalAlignment: AppText.AlignHCenter
       }
 
       // 2.4: Button to start cpp task
       AppButton {
-        anchors.horizontalCenter: parent.horizontalCenter
         text: "typeFromCpp.startCppTask()"
         onClicked: {
             typeFromCpp.startCppTask()
