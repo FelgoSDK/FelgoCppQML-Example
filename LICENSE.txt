@@ -10,7 +10,7 @@ furnished to do so, subject to the following conditions:
 Permission is NOT granted to merge, publish, distribute, sublicense and/or
 sell the provided image, audio and video files of this software.
 
-You may not redistribute the source code under the name of V-Play Engine or any
+You may not redistribute the source code under the name of Felgo or any
 other V-Play related trademarks.
 
 The above copyright notice and this permission notice shall be included in

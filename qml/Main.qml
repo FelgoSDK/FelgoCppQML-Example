@@ -1,4 +1,4 @@
-import VPlayApps 1.0
+import Felgo 3.0
 import QtQuick 2.5
 
 // custom import to use MyQMLType, a C++ based QML type

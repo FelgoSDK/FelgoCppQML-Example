@@ -10,8 +10,8 @@ buildscript {
 
 allprojects {
     repositories {
-        jcenter()
         maven { url 'https://maven.google.com' }
+        jcenter()
         maven { url 'https://sdk.v-play.net/maven/' }
     }
 }
@@ -39,7 +39,7 @@ android {
     compileSdkVersion androidCompileSdkVersion.toInteger()
     buildToolsVersion androidBuildToolsVersion
 
-    defaultConfig.applicationId = 'com.yourcompany.wizardEVP.VPlayCppQML'
+    defaultConfig.applicationId = 'com.yourcompany.wizardEVP.FelgoCppQML'
 
     sourceSets {
         main {

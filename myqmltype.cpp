@@ -16,7 +16,7 @@ void MyQMLType::startCppTask() {
 void MyQMLType::doCppTask() {
   // NOTE: you can do calculations here in another thread, this may be used to perform
   // cpu-intense operations for e.g. AI (artificial itelligence), Machine Learning or similar purposes
-  // When the work is done, we can trigger the cppTaskFinished signal and react anyhwhere in C++ or QML
+  // When the work is done, we can trigger the cppTaskFinished signal and react anywhere in C++ or QML
   cppTaskFinished();
 }
 

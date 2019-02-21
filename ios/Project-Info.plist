@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleDisplayName</key>
-    <string>VPlayCppQML</string>
+    <string>FelgoCppQML</string>
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
     <key>CFBundleIdentifier</key>
-    <string>com.yourcompany.wizardEVP.VPlayCppQML</string>
+    <string>com.yourcompany.wizardEVP.FelgoCppQML</string>
     <key>CFBundleName</key>
     <string>${PRODUCT_NAME}</string>
     <key>CFBundlePackageType</key>
