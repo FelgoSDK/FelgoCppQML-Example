@@ -3,23 +3,9 @@
 # FelgoCppQML Example
 Application Development with QML is simple and powerful. But Qt C++ offers many features, is faster and less error-prone. This post shows you how to create apps that take advantage of both languages.
 
-Description
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) THIS EXAMPLE HAS BEEN MOVED ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 -----------
-This example shows how to create apps that take advantage of both QML and Qt C++.
-
-For the full guide how to enhance your C++ class with signals and slots for usage with QML, see here:
-https://felgo.com/cross-platform-development/how-to-expose-a-qt-cpp-class-with-signals-and-slots-to-qml
-
-For more information about creating Apps with Felgo, see here: https://felgo.com/apps/.
-
-Installation Instructions
--------------------------
-This app was made with Felgo. You need the SDK which is freely available on https://felgo.com/ for all desktop platforms.
-
-1. Go to https://felgo.com/, register, download and install the free Felgo SDK.
-2. Clone the repository.
-3. Open the project file .pro in QtCreator (comes with Felgo SDK).
-4. Hit run to start the app.
+This example has been moved, please refer to: https://github.com/FelgoSDK/Demos-Examples/tree/master/appdemos/cpp-qml-integration
 
 Where to get help
 -----------------
